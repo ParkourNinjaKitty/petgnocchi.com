@@ -1,3 +1,14 @@
+html{
+    background-color: aquamarine;
+}
+
+.information-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
 .amount-section{
     display: flex;
     justify-content: center;
@@ -6,17 +17,6 @@
     font-family: 'Courier New';
     font-size: larger;
     font-weight: 600;
-}
-
-.img-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.gnocchi-img{
-    width: 100px;
-    height: auto;
 }
 
 .button-section{
@@ -32,4 +32,6 @@
     font-size: medium;
     font-weight: 300;
     font-style: oblique;
+    width: 100px;
+    height: auto;
 }
