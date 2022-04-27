@@ -8,6 +8,17 @@
     font-weight: 600;
 }
 
+.img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gnocchi-img{
+    width: 100px;
+    height: auto;
+}
+
 .button-section{
     display: flex;
     justify-content: center;
