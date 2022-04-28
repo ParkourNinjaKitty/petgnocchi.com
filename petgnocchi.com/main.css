@@ -1,0 +1,42 @@
+.amount-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-family: 'Courier New';
+    font-size: larger;
+    font-weight: 600;
+}
+
+.upgrade-price-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: 'Courier New';
+    font-size: larger;
+    font-weight: 400;
+}
+
+.button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.pet-gnocchi-button{
+    border: 3px solid green;
+    font-family: 'Courier New';
+    font-size: medium;
+    font-weight: 300;
+    font-style: oblique;
+}
+
+.upgrade-button{
+    border: 3px solid green;
+    font-family: 'Courier New';
+    font-size: medium;
+    font-weight: 300;
+    font-style: oblique;
+}
