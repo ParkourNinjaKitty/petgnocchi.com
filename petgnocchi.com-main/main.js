@@ -1,3 +1,4 @@
+/*Created by Camden Martin*/
 function ready() {
     let multcost = parseInt(localStorage['multcost']) || 100;
     let pets = parseInt(localStorage['pets']) || 0;
