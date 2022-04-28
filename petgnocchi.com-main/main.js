@@ -53,4 +53,11 @@ function reset() {
     localStorage['multcost'] = multcost;
     document.getElementById("upgrade-price").innerHTML = "Upgrade Price: " + multcost;
     document.getElementById("amount").innerHTML = pets;
+    if (multiplier > 10) {
+        document.getElementById("pet-button").src = String("GnocchiPictures/Gnocchi Image10.PNG");
+    }
+    else {
+        document.getElementById("pet-button").src = String("GnocchiPictures/Gnocchi Image" + multiplier + ".PNG");
+    }
+    document.getElementById("level").innerHTML = String("Level " + multiplier);
 }
