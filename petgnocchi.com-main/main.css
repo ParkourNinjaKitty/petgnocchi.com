@@ -74,3 +74,17 @@ html{
     font-weight: 300;
     font-style: oblique;
 }
+
+.link-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.link-to-wiki{
+    font-family: 'Courier New';
+    font-size: small;
+    font-weight: 300;
+    font-style: oblique;
+}
