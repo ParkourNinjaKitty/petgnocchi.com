@@ -6,6 +6,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
     font-family:'Courier New';
     font-size: xx-large;
     font-weight: 800;
@@ -25,7 +26,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 50px;
     font-family: 'Courier New';
     font-size: larger;
     font-weight: 600;
@@ -35,17 +36,24 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 25px;
     font-family: 'Courier New';
     font-size: larger;
     font-weight: 400;
 }
 
-.button-section{
+.gnocchi-button-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 300px;
+}
+
+.upgrade-button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
 }
 
 .pet-gnocchi-button{
@@ -54,7 +62,7 @@ html{
     font-size: medium;
     font-weight: 300;
     font-style: oblique;
-    height: 175px;
+    height: 300px;
     width: auto;
 }
 
