@@ -2,9 +2,10 @@ function ready() {
     let multcost = parseInt(localStorage['multcost']) || 100;
     let pets = parseInt(localStorage['pets']) || 0;
     let multiplier = parseInt(localStorage['multiplier']) || 1;
-    document.getElementById("upgrade-price").innerHTML = "Upgrade Price: " + multcost;
+    document.getElementById("upgrade-price").innerHTML = String("Upgrade Price: " + multcost);
     document.getElementById("amount").innerHTML = pets;
-    document.getElementById("pet-button").src = String("GnocchiPictures/Gnocchi Image" + multiplier + ".PNG")
+    document.getElementById("pet-button").src = String("GnocchiPictures/Gnocchi Image" + multiplier + ".PNG");
+    document.getElementById("level").innerHTML = String("Level " + multiplier);
 }
 function clicked() {
     let multiplier = parseInt(localStorage['multiplier']) || 1;
@@ -26,7 +27,8 @@ function upgrade() {
         localStorage['multcost'] = multcost;
         document.getElementById("upgrade-price").innerHTML = "Upgrade Price: " + multcost;
         document.getElementById("amount").innerHTML = pets;
-        document.getElementById("pet-button").src = String("GnocchiPictures/Gnocchi Image" + multiplier + ".PNG")
+        document.getElementById("pet-button").src = String("GnocchiPictures/Gnocchi Image" + multiplier + ".PNG");
+        document.getElementById("level").innerHTML = String("Level " + multiplier);
     }
 }
 function reset() {
