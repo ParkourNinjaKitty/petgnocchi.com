@@ -60,9 +60,8 @@ html{
 .pet-gnocchi-button{
     border: 3px solid green;
     font-family: 'Courier New';
-    font-size: medium;
+    font-size: large;
     font-weight: 300;
-    font-style: oblique;
     height: 300px;
     width: auto;
 }
@@ -70,26 +69,25 @@ html{
 .upgrade-button{
     border: 3px solid green;
     font-family: 'Courier New';
-    font-size: medium;
+    font-size: large;
     font-weight: 300;
-    font-style: oblique;
 }
 
 .details-section{
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: 3px;
+    left: 3px;
 }
 
 .link-to-wiki{
     font-family: 'Courier New';
-    font-size: small;
+    font-size: 12pt;
     font-weight: 300;
     font-style: oblique;
 }
 
 .version-text{
     font-family: 'Courier New';
-    font-size: small;
+    font-size: 12pt;
     font-weight: 200;
 }
