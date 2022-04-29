@@ -1,10 +1,10 @@
 /*Created by Camden Martin*/
-let currentVersion = 1.1
+let currentVersion = 1.2
 let previouslyOpenedVersion = parseInt(localStorage['version']) || currentVersion;
 let pets = parseInt(localStorage['pets']) || 0;
 let multcost = parseInt(localStorage['multcost']) || 100;
 let multiplier = parseInt(localStorage['multiplier']) || 1;
-let totalImages = 10;
+let totalImages = 14;
 
 function ready() {
     update_version();
@@ -27,6 +27,7 @@ function upgrade() {
 }
 function reset() {
     localStorage.clear('multiplier','multcost','pets');
+
     pets = parseInt(localStorage['pets']) || 0;
     multcost = parseInt(localStorage['multcost']) || 100;
     multiplier = parseInt(localStorage['multiplier']) || 1;

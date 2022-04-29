@@ -17,7 +17,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 25px;
     font-family:'Courier New';
     font-size: large;
     font-weight: 600;
@@ -27,7 +27,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 25px;
     font-family: 'Courier New';
     font-size: larger;
     font-weight: 600;
@@ -75,11 +75,10 @@ html{
     font-style: oblique;
 }
 
-.link-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25px;
+.details-section{
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .link-to-wiki{
@@ -87,4 +86,10 @@ html{
     font-size: small;
     font-weight: 300;
     font-style: oblique;
+}
+
+.version-text{
+    font-family: 'Courier New';
+    font-size: small;
+    font-weight: 200;
 }
