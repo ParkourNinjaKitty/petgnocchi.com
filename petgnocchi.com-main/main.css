@@ -1,6 +1,6 @@
 /*Created by Camden Martin*/
 html{
-    background-color: aquamarine;
+    background-color: rgb(10, 10, 10);
 }
 
 .information-section{
@@ -11,6 +11,7 @@ html{
     font-family:'Courier New';
     font-size: xx-large;
     font-weight: 800;
+    color: azure;
 }
 
 .level-section{
@@ -21,6 +22,7 @@ html{
     font-family:'Courier New';
     font-size: large;
     font-weight: 600;
+    color: azure;
 }
 
 .amount-section{
@@ -31,6 +33,7 @@ html{
     font-family: 'Courier New';
     font-size: larger;
     font-weight: 600;
+    color: azure;
 }
 
 .upgrade-price-section{
@@ -41,6 +44,7 @@ html{
     font-family: 'Courier New';
     font-size: larger;
     font-weight: 400;
+    color: azure;
 }
 
 .gnocchi-button-section{
@@ -58,7 +62,7 @@ html{
 }
 
 .pet-gnocchi-button{
-    border: 3px solid green;
+    border: 3px solid navy;
     font-family: 'Courier New';
     font-size: large;
     font-weight: 300;
@@ -67,7 +71,7 @@ html{
 }
 
 .upgrade-button{
-    border: 3px solid green;
+    border: 3px solid navy;
     font-family: 'Courier New';
     font-size: large;
     font-weight: 300;
@@ -77,6 +81,7 @@ html{
     position: fixed;
     bottom: 3px;
     left: 3px;
+    color: azure;
 }
 
 .link-to-wiki{
@@ -90,4 +95,30 @@ html{
     font-family: 'Courier New';
     font-size: 12pt;
     font-weight: 200;
+}
+
+#effects{
+    pointer-events: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+}
+
+.purr-effect{
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    width: auto;
+    height: auto;
+    font-family: 'Courier New';
+    font-size: 12pt;
+    font-weight: 200;
+    color: cornflowerblue;
 }
